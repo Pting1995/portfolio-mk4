@@ -43,6 +43,11 @@ a {
     margin: 10px;
 }
 
+.about-icon {
+  font-size: 40px;
+  padding: 10px;
+}
+
 .gif-project {
     width: 100%;
 }
