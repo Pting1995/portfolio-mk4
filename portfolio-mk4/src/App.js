@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
-// import project from "./pages/project.js";
+import Projects from "./pages/project.js";
 import NavBar from "./components/NavBar/index.js";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path={["/", "/aboutme"]} component={AboutMe} />
-          {/* <Route exact path="/project" component={project} /> */}
+          <Route exact path="/projects" component={Projects} />
         </Switch>
       </div>
     </Router>

@@ -6,6 +6,10 @@ body {
     background-attachment: fixed;
 }
 
+.navbar {
+    margin-bottom: 10px;
+}
+
 .navbar-brand {
     font-size: x-large;
 }
@@ -50,6 +54,10 @@ a {
 
 .gif-project {
     width: 100%;
+}
+
+.btn {
+    margin-right: 10px;
 }
 
 .card {
