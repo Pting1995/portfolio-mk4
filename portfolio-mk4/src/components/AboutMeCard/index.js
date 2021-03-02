@@ -1,10 +1,12 @@
 import React from "react";
+import image from "../../assets/images/me.JPG"
+import Resume from "../../assets/Resume.pdf"
 
 function AboutMe() {
     return (
         <div className="container">
             <div className="card card-content about-me border-info">
-                <img src="./images/me.JPG" className="rounded img-fluid" alt="Peter" />
+                <img src={image} className="rounded img-fluid" alt="Peter" />
                 <h1 className="important name">Peter Ting</h1>
                 <p className="title important">Full Stack Web Developer</p>
                 <p className="important">University of California, Riverside</p>
@@ -15,7 +17,7 @@ function AboutMe() {
                     <a href="https://github.com/Pting1995" target="_blank" rel="noreferrer">
                         <i className="fa fa-github contact-icon about-icon"></i>
                     </a>
-                    <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+                    <a href={Resume} target="_blank" rel="noreferrer">
                         <i className="fa fa-file contact-icon about-icon"></i>
                     </a>
                 </div>

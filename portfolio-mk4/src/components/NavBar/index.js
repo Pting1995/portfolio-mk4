@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../../assets/Resume.pdf"
 
 function NavBar() {
     return (
@@ -17,7 +18,7 @@ function NavBar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+                            <a href={Resume} target="_blank" rel="noreferrer">
                                 <button className="nav-link nav-sub">Resume</button>
                             </a>
                         </li>

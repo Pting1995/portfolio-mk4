@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../../assets/Resume.pdf"
 
 function ModalContactMe() {
     return (
@@ -21,7 +22,7 @@ function ModalContactMe() {
                             <a href="https://github.com/Pting1995" target="_blank" rel="noreferrer">
                                 <i className="fa fa-github contact-icon"></i>
                             </a>
-                            <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+                            <a href={Resume} target="_blank" rel="noreferrer">
                                 <i className="fa fa-file contact-icon"></i>
                             </a>
                         </ul>
