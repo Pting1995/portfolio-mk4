@@ -7,7 +7,9 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top navbar-color" id="top-nav">
             <div className="container">
-                <Link to={"/"}><a className="navbar-brand important">Peter Ting</a></Link>
+                <Link to={"/"}>
+                    <a className="navbar-brand important">Peter Ting</a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -15,9 +17,11 @@ function NavBar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a href="/projects">
-                                <button className="nav-link nav-sub">Projects</button>
-                            </a>
+                            <Link to={"/projects"}>
+                                <a>
+                                    <button className="nav-link nav-sub">Projects</button>
+                                </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <a href={Resume} target="_blank" rel="noreferrer">
@@ -30,7 +34,6 @@ function NavBar() {
                         <li className="nav-item">
                             <button className="nav-link nav-sub" data-bs-toggle="modal" data-bs-target="#contact-me-modal">Contact Me</button>
                         </li>
-
                     </ul>
                 </div>
             </div>
