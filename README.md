@@ -23,7 +23,7 @@ This site was made to showcase me! This is my first portfolio using React as a f
 
 ## Deployed Link
 
-* [See Live Site](https://portfolio-mk3.herokuapp.com/)
+* [See Live Site](https://pting1995.github.io/portfolio-mk4/#/)
 
 ## Authors
 
