@@ -1,11 +1,13 @@
 import React from "react";
+import { Router } from "react-router-dom";
 import Resume from "../../assets/Resume.pdf"
+import { Link } from "react-router-dom"
 
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top navbar-color" id="top-nav">
             <div className="container">
-                <a className="navbar-brand important" href="/">Peter Ting</a>
+                <Link to={"/"}><a className="navbar-brand important">Peter Ting</a></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
