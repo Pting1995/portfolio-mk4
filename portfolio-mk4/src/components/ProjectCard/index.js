@@ -8,10 +8,10 @@ function ProjectCard(props) {
                 <div className="card-body">
                     <div className="row">
                         <div className="col-6">
-                            <img src={props.image} className="gif-project" />
+                            <img src={props.image} className="gif-project" alt="gif of project" />
                         </div>
                         <div className="col-6">
-                            <h6 className="skills">{props.skillsShowcased}</h6>
+                            <h6 className="skills">Skills Showcase: {props.skillsShowcased}</h6>
                             <p className="card-text project-description">{props.desc}</p>
                             <a href={props.deployedLink} className="btn btn-info" target="blank">Live Site</a>
                             <a href={props.gitHubLink} className="btn btn-info" target="blank">GitHub Repository</a>

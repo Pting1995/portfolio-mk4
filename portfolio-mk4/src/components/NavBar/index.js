@@ -12,16 +12,20 @@ function NavBar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link nav-sub" href="/projects">Projects</a>
+                            <a href="/projects">
+                                <button className="nav-link nav-sub">Projects</button>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link nav-sub" href="./assets/Resume.pdf" target="_blank">Resume</a>
+                            <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+                                <button className="nav-link nav-sub">Resume</button>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link nav-sub" data-bs-toggle="modal" data-bs-target="#about-me-modal">About Me</a>
+                            <button className="nav-link nav-sub" data-bs-toggle="modal" data-bs-target="#about-me-modal">About Me</button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link nav-sub" data-bs-toggle="modal" data-bs-target="#contact-me-modal">Contact Me</a>
+                            <button className="nav-link nav-sub" data-bs-toggle="modal" data-bs-target="#contact-me-modal">Contact Me</button>
                         </li>
 
                     </ul>

@@ -18,6 +18,12 @@ body {
     background-color:  rgb(54, 59, 68);
 }
 
+button.nav-sub {
+    background-color:  rgb(54, 59, 68);
+border: none;
+background: none;
+}
+
 .nav-sub {
     float: right;
 }
@@ -25,6 +31,11 @@ body {
 .about-me {
     width: 500px;
     align-items: center;
+}
+
+.contact-icon {
+    font-size: 40px;
+    padding: 10px;
 }
 
 .important {

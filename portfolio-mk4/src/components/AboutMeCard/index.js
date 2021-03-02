@@ -9,14 +9,14 @@ function AboutMe() {
                 <p className="title important">Full Stack Web Developer</p>
                 <p className="important">University of California, Riverside</p>
                 <div>
-                    <a href="https://www.linkedin.com/in/pting002/" target="_blank">
+                    <a href="https://www.linkedin.com/in/pting002/" target="_blank" rel="noreferrer">
                         <i className="fa fa-linkedin contact-icon about-icon"></i>
                     </a>
-                    <a href="https://github.com/Pting1995" target="_blank">
+                    <a href="https://github.com/Pting1995" target="_blank" rel="noreferrer">
                         <i className="fa fa-github contact-icon about-icon"></i>
                     </a>
-                    <a href="./assets/Resume.pdf" target="_blank">
-                        <i className="far fa-file contact-icon about-icon"></i>
+                    <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+                        <i className="fa fa-file contact-icon about-icon"></i>
                     </a>
                 </div>
             </div>

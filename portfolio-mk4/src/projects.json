@@ -19,12 +19,12 @@
     },
     {
         "id": 3,
-        "projectName": "Project: What to Eat Database",
-        "skillsShowcased": "Databases, MVC, ORM, Express, Express-handlebars, Schema",
-        "desc": "This database was made to help keep track of food bucket lists! Have no idea what to eat for dinner? Take a gander at the \"Foods that I have eaten!\" list, or if you're feeling daring pick something off the \"Foods that I haven't eaten!\" list! This was one of my most confusing projects so far just because of the amount of files the model-view-controller (MVC) structure requires and the way information is passed between them to accomplish the goal of putting information into a database. This project was a great place to use express-handlebars because of how seemingly infinitely large databases are. With handlebars I could quickly create repeating structures on the page the user sees.",
-        "image": "images/what-to-eat-demo-1400x700.gif",
-        "deployedLink": "https://immense-river-70800.herokuapp.com/",
-        "gitHubLink": "https://github.com/Pting1995/pet-tracker"
+        "projectName": "Project: Memory Clicker",
+        "skillsShowcased": "React, React State, React Prop-drilling, React SetState, Dynamically Appending Information",
+        "desc": "This app was designed to challenge the user with a memory test! Upon loading the app, the user will be met with a navbar presenting the current score and highest score. Try your best to click each cat picture once! If you click on a cat, your score will increment and the pictures will be randomized, but if you click on the same cat again then the score will reset and youll have to try again! Try your best to achieve a score of 12! That is a prefect score in this game! Don't get discracted by the cats! It's a tough game! Good luck and have fun!",
+        "image": "images/memory-clicker-1400x700-demo.gif",
+        "deployedLink": "https://pting1995.github.io/memory-clicker/",
+        "gitHubLink": "https://github.com/Pting1995/memory-clicker"
     },
     {
         "id": 4,
@@ -37,12 +37,12 @@
     },
     {
         "id": 5,
-        "projectName": "Project: Memory Clicker",
-        "skillsShowcased": "React, React State, React Prop-drilling, React SetState, Dynamically Appending Information",
-        "desc": "This app was designed to challenge the user with a memory test! Upon loading the app, the user will be met with a navbar presenting the current score and highest score. Try your best to click each cat picture once! If you click on a cat, your score will increment and the pictures will be randomized, but if you click on the same cat again then the score will reset and youll have to try again! Try your best to achieve a score of 12! That is a prefect score in this game! Don't get discracted by the cats! It's a tough game! Good luck and have fun!",
-        "image": "images/memory-clicker-1400x700-demo.gif",
-        "deployedLink": "https://pting1995.github.io/memory-clicker/",
-        "gitHubLink": "https://github.com/Pting1995/memory-clicker"
+        "projectName": "Project: What to Eat Database",
+        "skillsShowcased": "Databases, MVC, ORM, Express, Express-handlebars, Schema",
+        "desc": "This database was made to help keep track of food bucket lists! Have no idea what to eat for dinner? Take a gander at the \"Foods that I have eaten!\" list, or if you're feeling daring pick something off the \"Foods that I haven't eaten!\" list! This was one of my most confusing projects so far just because of the amount of files the model-view-controller (MVC) structure requires and the way information is passed between them to accomplish the goal of putting information into a database. This project was a great place to use express-handlebars because of how seemingly infinitely large databases are. With handlebars I could quickly create repeating structures on the page the user sees.",
+        "image": "images/what-to-eat-demo-1400x700.gif",
+        "deployedLink": "https://immense-river-70800.herokuapp.com/",
+        "gitHubLink": "https://github.com/Pting1995/pet-tracker"
     },
     {
         "id": 6,
@@ -50,7 +50,7 @@
         "skillsShowcased": "Pseudocoding, If-Else Statements, Arrays, Math.Random",
         "desc": "This site was made to create random passwords! Upon clicking the \"Generate Password\" button prompts will appear and ask the user the desired criteria for the password. Criteria include character types, such as lower case characters, upper case characters, numeric characters, special characters, and also password length. There are two checks for password length and that there's at least one character type selected. All desired characters are added to a control array where a random number is selected between 1 and the total number of items in the control array. This will occur until the desired password length is achieved and then will be displayed in the text box.",
         "image": "images/random-password-generator-demo-1400x700.gif",
-        "deployedLink": null,
+        "deployedLink": "https://pting1995.github.io/password-generator/",
         "gitHubLink": "https://github.com/Pting1995/password-generator"
     }
 ]
