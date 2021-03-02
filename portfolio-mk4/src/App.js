@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/project.js";
 import NavBar from "./components/NavBar/index.js";
@@ -8,7 +8,7 @@ import ModalContactMe from "./components/ModalContactMe";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div>
         <NavBar />
         <ModalAboutMe />
