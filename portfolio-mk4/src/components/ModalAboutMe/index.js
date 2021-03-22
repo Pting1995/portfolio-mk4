@@ -3,7 +3,7 @@ import React from "react";
 function ModalAboutMe() {
     return (
         <div className="modal fade" id="about-me-modal" aria-hidden="true">
-            <div className="modal-dialog">
+            <div className="modal-dialog modal-lg">
                 <div className="modal-content">
                     <div className="modal-header">
                         <h3 className="modal-title important">Peter Ting</h3>

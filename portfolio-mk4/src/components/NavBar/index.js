@@ -1,5 +1,4 @@
 import React from "react";
-import { Router } from "react-router-dom";
 import Resume from "../../assets/Resume.pdf"
 import { Link } from "react-router-dom"
 
@@ -8,7 +7,7 @@ function NavBar() {
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top navbar-color" id="top-nav">
             <div className="container">
                 <Link to={"/"}>
-                    <a className="navbar-brand important">Peter Ting</a>
+                    <a href="/" className="navbar-brand important">Peter Ting</a>
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +17,7 @@ function NavBar() {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link to={"/projects"}>
-                                <a>
+                                <a href="/projects">
                                     <button className="nav-link nav-sub">Projects</button>
                                 </a>
                             </Link>

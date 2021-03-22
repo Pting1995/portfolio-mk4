@@ -2,8 +2,8 @@
     {
         "projectName": "Project: Danielle",
         "skillsShowcased": "Full Stack Development, React, React State, Local Storage, Bootstrap, API, Sequelize, Stripe Integration",
-        "desc": "This is a full-stack React application built for San Francisco-based baker Danielle M. Estrella. The application integrates e-commerce elements to give the site full functionality as a business development tool. There are two sides to the application, one for the shopper and one for the business owner. Guests to the site may view the complete menu, place orders, view her photo gallery, and visit her About Me page. Cart data persistence is accomplished using local storage and payments are processed using the Stripe payment API. Her menu is saved in a Sequelize database and is easily editable using the admin login which allows her to update, delete and create new menu items.",
-        "image": "https://github.com/Pting1995/portfolio-mk4/blob/main/portfolio-mk4/src/assets/images/database-crawler-900x450.gif?raw=true",
+        "desc": "This is a full-stack React application built for San Francisco-based baker Danielle M. Estrella. The application integrates e-commerce elements to give the site full functionality as a business development tool. There are two sides to the application, one for the shopper and one for the business owner. Guests to the site may view the complete menu, place orders, view her photo gallery, and more! Cart data persistence is accomplished using local storage and payments are processed using the Stripe payment API. Her menu is saved in a Sequelize database and is easily editable using the admin login which allows her to update, delete and create new menu items.",
+        "image": "https://github.com/Pting1995/portfolio-mk4/blob/main/portfolio-mk4/src/assets/images/danielle-showcase.gif?raw=true",
         "deployedLink": "https://danielle-m-estrella.herokuapp.com/",
         "gitHubLink": "https://github.com/Pting1995/business.builder"
     },
@@ -36,7 +36,7 @@
         "skillsShowcased": "React, React UseState, React UseEffect, Sorting, Searching On Change, APIs",
         "desc": "This app helps you keep your employees organized! Right now it uses an API to generate 15 random people with images, first and last names, phone numbers, emails, and date of births. Right now you can sort by name, phone number, email, and date. Alternatively you can search by typing in the employee's name in the \"Employee Search\" form. It will dynamically filter though your employees with the string you input into the form. I designed it so that incase your employees share first names, they can still be searched with first and last names!",
         "image": "https://github.com/Pting1995/portfolio-mk4/blob/main/portfolio-mk4/src/assets/images/employee-organizer-1400x700-demo.gif?raw=true",
-        "deployedLink": "https://github.com/Pting1995/portfolio-mk4/blob/main/portfolio-mk4/src/assets/images/employee-organizer-1400x700-demo.gif?raw=true",
+        "deployedLink": "https://pting1995.github.io/employee-organizer/",
         "gitHubLink": "https://github.com/Pting1995/employee-organizer"
     },
     {
