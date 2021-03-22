@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./../../assets/images/me.JPG"
+import image from "./../../assets/images/itsme.jpg"
 import Resume from "./../../assets/Resume.pdf"
 
 function AboutMe() {
