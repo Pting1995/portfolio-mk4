@@ -10,7 +10,15 @@ function ModalAboutMe() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
-                        Hi there! I’m Peter. My background includes a B.S. in Biology from UC Riverside, and most recently completing UC Berekeley Extension’s Full Stack Development course. I applied my analytical and logical skill set to rapidly progress my web development skills. I have multiple functioning individual and group full stack projects under my belt. Some of them are showcased on my Projects page! Feel free to take a look!
+                        Hi there! I’m Peter! I recently earned a
+                        Certificate in UC Berkeley's Full Stack Web
+                        Development program, I am currently
+                        seeking full-time opportunities in web
+                        development to create efficient and
+                        seamless applications with IOT devices
+                        and cloud computing. I have built multiple
+                        full stack projects in my portfolio, and the
+                        source code can be found in my GitHub.
 
                     </div>
                 </div>
