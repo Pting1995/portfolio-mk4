@@ -1,6 +1,5 @@
 import React from "react";
 import Resume from "../../assets/Resume.pdf";
-import './index.css';
 
 function ModalContactMe() {
     return (
@@ -9,7 +8,7 @@ function ModalContactMe() {
                 <div className="modal-content">
                     <div className="modal-header ">
                         <h3 className="modal-title important">Peter Ting</h3>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" className="btn-close btn-outline-dark" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
                         <ul>

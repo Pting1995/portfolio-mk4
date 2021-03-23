@@ -16,7 +16,6 @@ function Projects() {
                     deployedLink={project.deployedLink}
                     gitHubLink={project.gitHubLink} />
             })}
-
         </div>
     );
 }

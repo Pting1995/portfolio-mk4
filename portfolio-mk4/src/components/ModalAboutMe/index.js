@@ -7,7 +7,7 @@ function ModalAboutMe() {
                 <div className="modal-content">
                     <div className="modal-header">
                         <h3 className="modal-title important">Peter Ting</h3>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" className="btn-close btn-outline-dark" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div className="modal-body">
                         Hi there! I’m Peter! I recently earned a
